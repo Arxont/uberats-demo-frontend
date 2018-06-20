@@ -1,0 +1,19 @@
+{
+  "name": "uber-eats",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "repository": "https://github.com/Arxont/Verstka.git",
+  "author": "Feid <b.evg.ua@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "html-minifier": "^3.5.16",
+    "react": "^16.4.0"
+  },
+  "devDependencies": {
+    "postcss": "^6.0.22",
+    "postcss-cli": "^5.0.0",
+    "postcss-cssnext": "^3.1.0"
+  }
+}
