@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "test project",
   "main": "index.js",
-  "repository": "https://github.com/Arxont/Verstka.git",
+  "repository": "https://github.com/Arxont/uberats-demo-frontend.git",
   "author": "Feid <b.evg.ua@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "flexboxgrid2": "^7.2.1",
     "gulp": "^3.9.1",
     "html-minifier": "^3.5.16",
     "react": "^16.4.0"
