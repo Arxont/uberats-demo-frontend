@@ -50,6 +50,7 @@
   display: flex;
 }
 
-.mmedia_url {
+.media_url {
   display: flex;
+  justify-content: space-between;
 }
