@@ -3,7 +3,12 @@
   --sm-min: 576px;
   --md-min: 768px;
 }
-@media (min-width: 576px) and (max-width: 767px) {
+
+@media (max-width: 767px) {
+  .h123 {
+    display: flex;
+    flex-direction: column;
+  }
   .copyrights {
     background-color: green;
   }
@@ -21,13 +26,6 @@
   border-bottom: solid;
   border-radius: 2px;
   border-color: #e7e7e7;
-}
-
-.h123 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  /*заменяет ров, нужно дать адекватное название*/
 }
 
 .logo {
@@ -78,8 +76,4 @@
 
 .footer {
   background-color: #262626;
-}
-
-.footer_container {
-  background-color: yellow;
 }
