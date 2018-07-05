@@ -3,9 +3,11 @@
   border-radius: 2px;
   border-color: #e7e7e7;
 }
+
 .h123 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   /*заменяет ров, нужно дать адекватное название*/
 }
 
@@ -46,6 +48,10 @@
   font-family: roboto;
 }
 
+.content_container {
+  background-color: orange;
+}
+
 .hashtag {
   display: flex;
 }
@@ -53,4 +59,8 @@
 .media_url {
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  background-color: #262626;
 }
