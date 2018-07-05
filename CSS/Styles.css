@@ -1,3 +1,22 @@
+:root {
+  --gutter-width: 16px;
+  --sm-min: 576px;
+  --md-min: 768px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .copyrights {
+    background-color: green;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .block_leveler {
+    width: calc(var(--md-min) - var(--gutter-width));
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
 .header {
   border-bottom: solid;
   border-radius: 2px;
@@ -16,10 +35,6 @@
 }
 .auth {
   display: flex;
-}
-
-.container {
-  background-color: aquamarine;
 }
 
 .restaurant_search_wrapper {
@@ -63,4 +78,8 @@
 
 .footer {
   background-color: #262626;
+}
+
+.footer_container {
+  background-color: yellow;
 }
