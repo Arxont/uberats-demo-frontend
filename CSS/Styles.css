@@ -26,9 +26,10 @@
   }
 }
 
-.header_search {
-  background-color: aquamarine;
-  justify-content: space-between;
+.header_item_position {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 40px;
 }
 
 .block_wrapper {
@@ -69,12 +70,6 @@
 .bag_icon {
   font-size: 30px;
   margin-left: 27px;
-}
-
-.header_item_position {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  height: 40px;
 }
 
 .mobile_conteiner {
@@ -119,7 +114,6 @@
 }
 .desc_imp {
   width: 227px;
-  height: 38px;
 }
 .mob_imp {
   width: 100%;
