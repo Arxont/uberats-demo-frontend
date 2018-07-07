@@ -137,8 +137,8 @@
   font-family: roboto;
 }
 
-.content_container {
-  background-color: orange;
+.container_img {
+  width: 100%;
 }
 
 .hashtag {
