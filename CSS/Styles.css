@@ -14,6 +14,13 @@
   }
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .block_leveler {
+    width: calc(var(--sm-min) - var(--gutter-width));
+    max-width: 100%;
+    margin: auto;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .block_leveler {
     width: calc(var(--md-min) - var(--gutter-width));
