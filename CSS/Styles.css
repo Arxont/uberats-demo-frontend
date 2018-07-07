@@ -9,9 +9,6 @@
     display: flex;
     flex-direction: column;
   }
-  .copyrights {
-    background-color: green;
-  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -29,10 +26,31 @@
   }
 }
 
+.block_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .header {
   border-bottom: solid;
   border-radius: 2px;
   border-color: #e7e7e7;
+}
+.button {
+  font-size: 13px;
+  font-style: medium;
+  font-family: roboto;
+  line-height: 24px;
+  border-radius: 2px;
+  border-color: #e7e7e7;
+  height: 40px;
+  width: 72px;
+}
+
+.mobile_conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .logo {
