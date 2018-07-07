@@ -31,7 +31,7 @@
   flex-wrap: wrap;
 }
 
-.header {
+.bottom_border {
   border-bottom: solid;
   border-radius: 2px;
   border-color: #e7e7e7;
@@ -45,6 +45,30 @@
   border-color: #e7e7e7;
   height: 40px;
   width: 72px;
+}
+
+.asap {
+  margin-right: 22px;
+  background-color: inherit;
+}
+.auth_signin {
+  background-color: white;
+  color: black;
+  margin-right: 16px;
+}
+.auth_reg {
+  background-color: black;
+  border-style: none;
+  color: White;
+}
+.bag_icon {
+  font-size: 30px;
+  margin-left: 27px;
+}
+
+.header_item_position {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .mobile_conteiner {
@@ -65,17 +89,40 @@
   align-items: flex-end;
   width: 100%;
   height: 100%;
-  border-bottom: solid;
-  border-radius: 2px;
-  border-color: #e7e7e7;
 }
 .r_search {
   display: flex;
   width: 100%;
 }
 
-.search_for_icon {
+.icon_pisition {
   align-self: center;
+  margin-right: 2px;
+}
+
+.imput_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: #e7e7e7;
+}
+.desc_imp_width {
+  width: 227px;
+}
+.mob_imp_width {
+  width: 100%;
+}
+.search_imput {
+  border-style: none;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 13px;
+  line-height: 24px;
 }
 .search_for {
   width: 100%;
