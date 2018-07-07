@@ -54,8 +54,11 @@
 }
 
 .asap {
-  margin-right: 22px;
   background-color: inherit;
+}
+.header_to {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .auth_signin {
   background-color: white;
