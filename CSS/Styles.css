@@ -149,7 +149,14 @@
   display: flex;
   justify-content: space-between;
 }
+.ios_download {
+  margin-right: 5%;
+}
 
 .footer {
   background-color: #262626;
+}
+
+footer_end {
+  margin-top: 20px;
 }
