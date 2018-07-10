@@ -4,6 +4,12 @@
   --md-min: 768px;
 }
 
+.body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
 @media (max-width: 767px) {
   .h123 {
     display: flex;
@@ -36,6 +42,7 @@
   margin-right: 8px;
   margin-left: 8px;
 }
+
 .block_wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -45,41 +52,31 @@
   color: white;
 }
 .container_rest_street {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   line-height: 24px;
   font-size: 16px;
   color: #1d1d1d;
 }
 
 .container_food_price {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   line-height: 21px;
   font-size: 14px;
   color: #626262;
 }
 
 .container_travel_time {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   line-height: 21px;
   font-size: 13px;
   color: #1d1d1d;
 }
 
 .bottom_border {
-  border-bottom: solid;
+  border-bottom-style: solid;
+  border-width: thin;
   border-radius: 2px;
   border-color: #e7e7e7;
 }
 .button {
   font-size: 13px;
-  font-style: medium;
-  font-family: roboto;
   line-height: 24px;
   border-radius: 5px;
   border-color: #e7e7e7;
@@ -199,6 +196,18 @@
   border-bottom-style: solid;
   border-width: thin;
   border-color: #ffffff;
+}
+.hashtag_h {
+  color: green;
+  height: 19px;
+}
+.hashtag_uber {
+  width: 65px;
+  height: 19px;
+  left: 92px;
+  top: 1690px;
+  font-size: 16px;
+  color: #ffffff;
 }
 .uber_info {
   margin-top: 30px;
