@@ -32,9 +32,43 @@
   height: 40px;
 }
 
+.test1 {
+  margin-right: 8px;
+  margin-left: 8px;
+}
 .block_wrapper {
   display: flex;
   flex-wrap: wrap;
+}
+.text_decor {
+  text-decoration: none;
+  color: white;
+}
+.container_rest_street {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 16px;
+  color: #1d1d1d;
+}
+
+.container_food_price {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 14px;
+  color: #626262;
+}
+
+.container_travel_time {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 13px;
+  color: #1d1d1d;
 }
 
 .bottom_border {
