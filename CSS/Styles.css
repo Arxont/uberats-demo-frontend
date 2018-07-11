@@ -31,7 +31,10 @@
     margin: auto;
   }
 }
-
+.header {
+  margin-bottom: 1%;
+  box-shadow: 0 3px 8px -3px grey;
+}
 .header_item_position {
   margin-top: 16px;
   margin-bottom: 16px;
