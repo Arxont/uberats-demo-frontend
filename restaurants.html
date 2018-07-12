@@ -3,54 +3,49 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Restaurants</title>
-  <meta name="description" content="main page">
+  <title>Restaurant</title>
+  <meta name="description" content="Restaurant menu">
   <meta name="author" content="Feid">
   <meta name="keywords" content="HTML">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css">
-  <link rel="stylesheet" href=".\CSS\Styles.css">
-  <link rel="stylesheet" href=".\CSS\normalize.css">
+  <link rel="stylesheet" href="./CSS/Styles.css">
+  <link rel="stylesheet" href="./CSS/normalize.css">
   <script src="./JavaScript/bundle.js"></script>
 </head>
 
 <body>
-  <div class="col-12 col-m-12">
-    <header>
-      <div class="col-l-12">
-        <div class="header_wrapper">
-          <div class="header_logo">
-            <p class="uber_part">UBER</p>
-            <p class="eats_part">EATS</p>
-          </div>
-          <div class="header_search">
-            <button type="button" class="asap">ASAP</button>
-            <p>to:</p>
+  <header class="header block_leveler">
+    <div class="container">
+      <div class="block_wrapper between-xs between-sm between-md between-lg margin_leveler">
+        <div class="logo header_item_position">
+          <img class="header_logo" src="./Images/logo.svg" alt="UBER EATS">
+        </div>
+        <div class="hidden-xs hidden-sm">
+          <nav class="block_wrapper header_item_position">
+            <button type="button" class="button asap">ASAP</button>
+            <p class="header_to">to:</p>
             <div class="imput_wrapper">
-              <span class="header_search_icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </span>
-              <input type="search" class="street_search" name="s_serch" placeholder="Type here">
+              <img class="search_img" src="./Images/location.svg" alt="search">
+              <input type="search" class="search_imput desc_imp" name="s_serch" placeholder="Type here">
             </div>
-          </div>
-          <div class="header_login">
-            <button type="button" class="header_signin">Sign in</button>
-            <button type="button" class="header_reg">Register</button>
-            <div class="bag_icon">
-              <i class="fas fa-shopping-bag"></i>
-            </div>
+          </nav>
+        </div>
+        <div class="auth header_item_position">
+          <button type="button" class="button auth_signin">Sign in</button>
+          <button type="button" class="button auth_reg">Register</button>
+          <div class="bag_icon icon_pisition hidden-xs hidden-sm">
+            <img class="basket_img" src="./Images/basket.svg" alt="basket">
           </div>
         </div>
       </div>
-    </header>
-
-    <section class="restaurant_presentation">
-      <div class="col-l-12">
+    </div>
+  </header>
+  <section class="restaurant_presentation">
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5 col-xl-5">
         <div class="reastaurant_info">
           <h2 class="r_name">placeholder</h2>
           <div class="price_time">
@@ -61,11 +56,12 @@
               <p class="timer_data">40-50 Min</p>
             </div>
           </div>
-
         </div>
       </div>
-    </section>
-    <div class="col-l-12">
+    </div>
+  </section>
+  <div class="container">
+    <div class="hidden-md hidden-lg hidden-xl">
       <section class="mobile_menu_filter">
         <div class="filter_wrapper">
           <select class="filter_select">
@@ -78,11 +74,9 @@
         </div>
       </section>
     </div>
-
-    <section class="filter">
-      <div class="col-l-12">
-
-        <div class="filter_type">
+    <div class="hidden-xs hidden-sm">
+      <section class="filter">
+        <div class="filter_type block_wrapper between-md">
           <a class="snacks" href="https://www.123.com">
             <p>Snacks</p>
           </a>
@@ -102,186 +96,128 @@
             <p>Desserts</p>
           </a>
         </div>
+      </section>
+    </div>
+
+    <main>
+      <div class="block_wrapper">
+        <div class="col-md-6 col-lg-6 col-xl-6">
+          <div class="box">
+            <div class="box_txt">
+              <p>Cельдь на бородинском хлебе</p>
+              <p> placeholder</p>
+              <p>placeholder</p>
+            </div>
+            <div class="filter_img"></div>
+          </div>
+        </div>
+
 
       </div>
-    </section>
-    <div class="col-l-12">
-      <main>
-        <div class="filter_content">
-          <div class="filter_content_wrapper">
-            <div class="box_1">
-              <div class="box1_txt">
-                <p>сельдь на бородинском хлебе ne seka rfruj [thf ns yt ghjgflftim dldfvf bd b dfbvbeob </p>
-                <p> placeholder</p>
-                <p>placeholder</p>
-              </div>
-              <div class="filter_img1"> </div>
-            </div>
-            <div class="box_2">
-              <div class="box2_txt">
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
-              </div>
-              <div class="filter_img2"></div>
-            </div>
-            <div class="box_3">
-              <div class="box3_txt">
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
-              </div>
-              <div class="filter_img3"></div>
-            </div>
-            <div class="box_4">
-              <div class="box4_txt">
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
-              </div>
-              <div class="filter_img4"></div>
-            </div>
-            <div class="box_5">
-              <div class="box5_txt">
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
-              </div>
-              <div class="filter_img5"></div>
-            </div>
-            <div class="box_6">
-              <div class="box6_txt">
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
-              </div>
-              <div class="filter_img6"></div>
-            </div>
-          </div>
-
-        </div>
-      </main>
-    </div>
-    <footer class="footer">
-      <div class="col-l-12">
-        <div class="footer_logo">
-          <p class="uber_part2">UBER</p>
-          <p class="eats_part2">EATS</p>
-        </div>
-        <section class="footer_wrapper">
-          <div class="footer_container1">
-            <div class="lang_select">
-              <select name="language">
-                <option value="English">English</option>
-                <option value="Russian">Russian</option>
-              </select>
-            </div>
-            <div class="hashtag">
-              <p class="hashtag_1">#</p>
-              <p>UberEats</p>
-            </div>
-            <div class="media_wrapper">
-              <div class="media_url">
-                <p>
-                  <a href="https://www.facebook.com" class="facebook_url">
-                    <i class="fab fa-facebook-square"></i>
-                  </a>
-                </p>
-                <p>
-                  <a href="https://www.twitter.com" class="twitter_url">
-                    <i class="fab fa-twitter-square"></i>
-                  </a>
-                </p>
-                <p>
-                  <a href="https://instagram.com" class="instagram_url">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="footer_container2">
-            <div class="about_uber">
-              <p>
-                <a href="https://www.123.com">About Ubereats</a>
-              </p>
-            </div>
-            <div class="delivery_partner">
-              <p>
-                <a href="https://www.123.com">Become a delivery Partner</a>
-              </p>
-            </div>
-            <div class="restaurant_partner">
-              <p>
-                <a href="https://www.123.com">Become a restaurant Partner</a>
-              </p>
-            </div>
-          </div>
-          <div class="footer_container3">
-            <div class="clients">
-              <p>
-                <a href="https://www.123.com">See all clients</a>
-              </p>
-            </div>
-            <div class="pricing">
-              <p>
-                <a href="https://www.123.com">Pricing</a>
-              </p>
-            </div>
-            <div class="support">
-              <p>
-                <a href="https://www.123.com">Help</a>
-              </p>
-            </div>
-            <div class="faq">
-              <p>
-                <a href="https://www.123.com">FAQ</a>
-              </p>
-            </div>
-          </div>
-        </section>
-        <section class="mobile_url">
-          <div class="android">
-            <p>
-              <a href="https://www.123.com">
-                <i class="fab fa-google-play"></i>
-              </a>
-            </p>
-          </div>
-          <div class="apple">
-            <p>
-              <a href="https://www.123.com">
-                <i class="fab fa-app-store-ios"></i>
-              </a>
-            </p>
-          </div>
-        </section>
-        <section class="footer_end">
-          <div class="copyrights">
-            <p>
-              <a href="https://www.123.com">© 2018 Uber Tehnologis Inc.</a>
-            </p>
-          </div>
-          <div class="privacy">
-            <p>
-              <a href="https://www.123.com">Privacy</a>
-            </p>
-          </div>
-          <div class="terms">
-            <p>
-              <a href="https://www.123.com">Terms</a>
-            </p>
-          </div>
-          <div class="footer_b">
-
-            <button onclick="topFunction()" id="footer_button" title="Go top">
-              <i class="fas fa-arrow-up"></i>
-            </button>
-          </div>
-        </section>
-    </footer>
-    </div>
+    </main>
   </div>
+  <footer class="footer block_leveler ">
+    <div class="container">
+      <div class="logo margin_leveler footer_bottom_border">
+        <img class="footer_logo" src="./Images/white-logo.svg" alt="UBER EATS">
+      </div>
+      <section class="uber_info block_column block_wrapper between-xs between-sm between-md between-lg margin_leveler footer_bottom_border">
+        <div class="footer_container">
+          <div class="lang_select">
+            <select name="language">
+              <option value="English">English</option>
+              <option value="Russian">Russian</option>
+            </select>
+          </div>
+          <div class="hashtag">
+            <p class="hashtag_h">#</p>
+            <p class="hashtag_uber">UberEats</p>
+          </div>
+
+          <div class="media_url">
+            <a href="https://www.facebook.com" class="facebook_url text_decor">
+              <img class="facebook_img" src="./Images/social/facebook.svg" alt="facebook">
+            </a>
+            <a href="https://www.twitter.com" class="twitter_url text_decor">
+              <img class="twitter_img" src="./Images/social/twitter.svg" alt="twitter">
+            </a>
+            <a href="https://instagram.com" class="instagram_url text_decor">
+              <img class="instagram_img" src="./Images/social/instagram.svg" alt="instagram">
+            </a>
+          </div>
+        </div>
+        <div class="footer_container">
+          <div class="about_uber">
+            <p>
+              <a class="text_decor" href="https://www.123.com">About Ubereats</a>
+            </p>
+          </div>
+          <div class="delivery_partner">
+            <p>
+              <a class="text_decor" href="https://www.123.com">Become a delivery Partner</a>
+            </p>
+          </div>
+          <div class="restaurant_partner">
+            <p>
+              <a class="text_decor" href="https://www.123.com">Become a restaurant Partner</a>
+            </p>
+          </div>
+        </div>
+        <div class="footer_container">
+          <div class="clients">
+            <p>
+              <a class="text_decor" href="https://www.123.com">See all clients</a>
+            </p>
+          </div>
+          <div class="pricing">
+            <p>
+              <a class="text_decor" href="https://www.123.com">Pricing</a>
+            </p>
+          </div>
+          <div class="support">
+            <p>
+              <a class="text_decor" href="https://www.123.com">Help</a>
+            </p>
+          </div>
+          <div class="faq">
+            <p>
+              <a class="text_decor" href="https://www.123.com">FAQ</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="mobile_url center-xs margin_leveler footer_bottom_border">
+        <a class="ios_download">
+          <img class="ios" src="./Images/Download_on_the_App_Store.svg" alt="ios download">
+        </a>
+        <a class="android_download">
+          <img class="android" src="./Images/googleplay.png" alt="androind download">
+        </a>
+      </section>
+      <section class="block_column block_wrapper between-xs between-sm between-md between-lg footer_end margin_leveler">
+        <div class="copyrights">
+          <p>
+            <a class="text_decor" href="https://www.123.com">© 2018 Uber Tehnologis Inc.</a>
+          </p>
+        </div>
+        <div class="privacy">
+          <p>
+            <a class=" text_decor" href="https://www.123.com">Privacy</a>
+          </p>
+        </div>
+        <div class="terms">
+          <p>
+            <a class="text_decor" href="https://www.123.com">Terms</a>
+          </p>
+        </div>
+        <div class=" terms footer_b">
+          <button onclick="topFunction()" id="footer_button" title="Go top">
+            <img class="btn_up" src="./Images/btn-up.svg" alt="instagram">
+          </button>
+        </div>
+      </section>
+    </div>
+  </footer>
 </body>
 
 </html>

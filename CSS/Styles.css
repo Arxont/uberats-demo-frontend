@@ -60,11 +60,10 @@
   }
 }
 
-.header {
+.header_border {
   margin-bottom: 1%;
   box-shadow: 0 3px 8px -3px grey;
 }
-
 .header_item_position {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -260,4 +259,43 @@
   left: 75%;
   border-radius: 3px;
   border-style: none;
+}
+
+.restaurant_presentation {
+  display: flex;
+  background-image: url("../Images/restaurants/restouraunt_back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #626262;
+}
+
+.reastaurant_info {
+  background-color: white;
+}
+
+.box {
+  display: flex;
+  height: 160px;
+  width: 100%;
+  margin-bottom: 1%;
+  border-style: solid;
+  border-color: #ececec;
+}
+
+.box_txt {
+  width: 70%;
+}
+.filter_img {
+  width: 30%;
+  height: 100%;
+  background-image: url("../Images/restaurants/1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.box p {
+  white-space: nowrap;
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
