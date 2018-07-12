@@ -175,8 +175,6 @@
 
 .search_imput {
   border-style: none;
-  font-family: Roboto;
-  font-style: Regular;
   font-size: 13px;
   line-height: 24px;
 }
@@ -185,8 +183,6 @@
   height: 48px;
   border-style: none;
   font-size: 16px;
-  font-style: Regular;
-  font-family: roboto;
 }
 
 .container_img {
