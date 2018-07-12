@@ -275,22 +275,16 @@
 
 .box {
   display: flex;
-  height: 160px;
-  width: 100%;
+  justify-content: space-between;
   margin-bottom: 1%;
   border-style: solid;
   border-color: #ececec;
 }
-
 .box_txt {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 70%;
-}
-.filter_img {
-  width: 30%;
-  height: 100%;
-  background-image: url("../Images/restaurants/1.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 .box p {
@@ -298,4 +292,21 @@
   max-width: 60%;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.box_img {
+  width: 30%;
+}
+.box_other_info {
+  margin-top: 0.5%;
+  color: grey;
+}
+
+.test1 {
+  visibility: hidden;
+}
+
+.box_price {
+  margin-top: 10%;
+  margin-bottom: 1%;
 }
