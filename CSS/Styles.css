@@ -182,6 +182,7 @@
 .media_url {
   display: flex;
   justify-content: space-between;
+  max-width: 33%;
 }
 .ios_download {
   margin-right: 5%;
