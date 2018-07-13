@@ -261,6 +261,64 @@
   border-style: none;
 }
 
+@media (max-width: 767px) {
+  .price_time {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .timer {
+    margin: auto;
+  }
+}
+
+.reastaurant_info {
+  display: flex;
+  flex-wrap: wrap;
+  height: 204px;
+  min-width: 304px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 2px;
+}
+
+.r_name {
+  margin-top: 38px;
+  width: 100%;
+}
+
+.price_time {
+  display: flex;
+  width: 100%;
+}
+
+.price_wrapper {
+  display: flex;
+  height: 32px;
+}
+.price {
+  margin: auto;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 13px;
+  line-height: 15px;
+}
+.timer {
+  display: flex;
+  background-color: #1d1d1d;
+  border-radius: 16px;
+  width: 98px;
+  height: 32px;
+  color: white;
+}
+.timer_data {
+  margin: auto;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 13px;
+  line-height: 15px;
+}
+
 .filter {
   border-bottom-style: solid;
   border-color: #626262;
@@ -286,6 +344,9 @@
   background-color: white;
 }
 
+.placeholder {
+  visibility: hidden;
+}
 .box {
   display: flex;
   justify-content: space-between;
