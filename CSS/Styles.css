@@ -250,8 +250,8 @@
 }
 
 .mobile_url {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .footer_end {
@@ -265,6 +265,23 @@
   left: 75%;
   border-radius: 3px;
   border-style: none;
+}
+
+/*
+
+
+restaurant css
+
+
+
+*/
+
+.rest_margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.active:hover {
+  color: green;
 }
 
 .restaurant_presentation {
@@ -361,9 +378,6 @@
   color: black;
 }
 
-.placeholder {
-  visibility: hidden;
-}
 .box {
   display: flex;
   justify-content: space-between;
@@ -371,6 +385,7 @@
   border-style: solid;
   border-color: #ececec;
 }
+
 .box_txt {
   display: flex;
   flex-direction: column;
@@ -393,7 +408,7 @@
   color: grey;
 }
 
-.test1 {
+.unneeded {
   visibility: hidden;
 }
 
