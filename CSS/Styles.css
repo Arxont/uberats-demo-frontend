@@ -7,8 +7,11 @@
 }
 
 .block_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .text_decor {
@@ -17,7 +20,9 @@
 }
 
 .icon_pisition {
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   margin-right: 2px;
 }
 
@@ -30,8 +35,13 @@
 
 @media (max-width: 767px) {
   .block_column {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .body {
     background-color: #f2f2f2;
@@ -49,7 +59,8 @@
 
 .header_border {
   margin-bottom: 1%;
-  box-shadow: 0 3px 8px -3px grey;
+  -webkit-box-shadow: 0 3px 8px -3px grey;
+          box-shadow: 0 3px 8px -3px grey;
 }
 .header_item_position {
   margin-top: 16px;
@@ -58,10 +69,14 @@
 }
 
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -93,7 +108,8 @@
 }
 
 .button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
 }
 
 .asap {
@@ -129,12 +145,18 @@
 }
 
 .restaurant_search_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   width: 100%;
   height: 100%;
 }
 .r_search {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
@@ -199,6 +221,8 @@
 }
 
 .hashtag {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -221,8 +245,12 @@
 }
 
 .media_url {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 33%;
 }
 
@@ -271,6 +299,8 @@ restaurant css
 }
 
 .restaurant_presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-image: url("../Images/restaurants/restouraunt-back.png");
   background-size: cover;
@@ -281,8 +311,11 @@ restaurant css
 
 .reastaurant_info {
   margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   height: 204px;
   margin-top: 200px;
   margin-bottom: 80px;
@@ -296,12 +329,19 @@ restaurant css
 }
 
 .price_time {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: auto;
 }
 
 .price_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: auto;
   height: 32px;
@@ -315,6 +355,8 @@ restaurant css
 }
 .timer {
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #1d1d1d;
   border-radius: 16px;
@@ -331,13 +373,16 @@ restaurant css
 }
 
 .filter_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 157px;
 }
 
 .filter_select {
   background-color: transparent;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 12px;
@@ -366,17 +411,27 @@ restaurant css
 }
 
 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 1%;
   border-style: solid;
   border-color: #ececec;
 }
 
 .box_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 70%;
 }
 
@@ -384,7 +439,8 @@ restaurant css
   white-space: nowrap;
   max-width: 60%;
   overflow: hidden;
-  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
 }
 
 .box_img {
@@ -407,7 +463,10 @@ restaurant css
 
   .price_time {
     width: 100%;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 
   .timer {
