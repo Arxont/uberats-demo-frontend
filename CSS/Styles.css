@@ -1,18 +1,9 @@
-:root {
-  --gutter-width: 16px;
-  --sm-min: 576px;
-  --md-min: 768px;
-}
+
 
 .body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-}
-
-.margin_leveler {
-  margin-right: 8px;
-  margin-left: 8px;
 }
 
 .block_wrapper {
@@ -51,19 +42,9 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .block_leveler {
-    width: calc(var(--sm-min) - var(--gutter-width));
-    max-width: 100%;
-    margin: auto;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .block_leveler {
-    width: calc(var(--md-min) - var(--gutter-width));
-    max-width: 100%;
-    margin: auto;
-  }
 }
 
 .header_border {
@@ -280,13 +261,18 @@ restaurant css
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.unneeded {
+  visibility: hidden;
+}
+
 .active:hover {
   color: green;
 }
 
 .restaurant_presentation {
   display: flex;
-  background-image: url("../Images/restaurants/restouraunt_back.png");
+  background-image: url("../Images/restaurants/restouraunt-back.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #626262;
@@ -371,6 +357,7 @@ restaurant css
   border-width: 1px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin
 }
 
 .filter_type a {
@@ -406,10 +393,6 @@ restaurant css
 .box_other_info {
   margin-top: 0.5%;
   color: grey;
-}
-
-.unneeded {
-  visibility: hidden;
 }
 
 .box_price {
