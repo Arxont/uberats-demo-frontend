@@ -12,19 +12,19 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css">
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/normalize.css">
 </head>
 
 <body class="body">
-  <header class="header header_border block_leveler">
+  <header class="header header_border">
     <div class="container">
-      <div class="block_wrapper between-xs between-sm between-md between-lg margin_leveler">
+      <div class="block-wrapper between-xs between-sm between-md between-lg">
         <div class="logo header_item_position">
           <img class="header_logo" src="./images/logo.svg" alt="UBER EATS">
         </div>
         <div class="hidden-xs hidden-sm">
-          <nav class="block_wrapper header_item_position">
+          <nav class="block-wrapper header_item_position">
             <button type="button" class="button asap">ASAP</button>
             <p class="header_to">to:</p>
             <div class="imput_wrapper">
@@ -46,8 +46,8 @@
   <div class="container">
     <nav class="restaurant_search">
       <div class="col-xs-12">
-        <div class="block_wrapper">
-          <div class="restaurant_search_wrapper bottom_border margin_leveler">
+        <div class="block-wrapper">
+          <div class="restaurant_search_wrapper bottom_border">
             <div class="r_search">
               <img class="search_img" src="./images/search.svg" alt="search">
               <input type="search" class="search_for" name "serch" placeholder="Search for restaurant or cuisine">
@@ -56,8 +56,8 @@
         </div>
       </div>
     </nav>
-    <div class="hidden-md hidden-lg hidden-xl">
-      <section class="block_wrapper around-xs around-sm">
+    <div class="col-xs-12 hidden-md hidden-lg hidden-xl">
+      <section class="block-wrapper around-xs around-sm">
         <div class="mobile_conteiner col-xs-3 col-sm-3">
           <p class="mobile_directions">When</p>
         </div>
@@ -79,7 +79,7 @@
       <div class="col-xs-12">
         <h3 class="sity_rest">Mocsow Reastaurants</h3>
       </div>
-      <div class="block_wrapper">
+      <div class="block-wrapper">
         <div class="col-md-6 col-lg-4  col-xl-4">
           <div class="content_container">
             <a class="text_decor" href="./restaurants.html">
@@ -191,12 +191,12 @@
       </div>
     </main>
   </div>
-  <footer class="footer block_leveler ">
+  <footer class="footer ">
     <div class="container">
-      <div class="logo margin_leveler footer_bottom_border">
+      <div class="logo footer_bottom_border">
         <img class="footer_logo" src="./images/white-logo.svg" alt="UBER EATS">
       </div>
-      <section class="uber_info block_column block_wrapper between-xs between-sm between-md between-lg margin_leveler footer_bottom_border">
+      <section class="uber_info block_column block-wrapper between-xs between-sm between-md between-lg footer_bottom_border">
         <div class="footer_container">
           <div class="lang_select">
             <select name="language">
@@ -261,7 +261,7 @@
           </div>
         </div>
       </section>
-      <section class="mobile_url center-xs margin_leveler footer_bottom_border">
+      <section class="mobile_url center-xs footer_bottom_border">
         <a class="ios_download">
           <img class="ios" src="./images/download-on-the-app-store.svg" alt="ios download">
         </a>
@@ -269,7 +269,7 @@
           <img class="android" src="./images/googleplay.png" alt="androind download">
         </a>
       </section>
-      <section class="block_column block_wrapper between-xs between-sm between-md between-lg footer_end margin_leveler">
+      <section class="block_column block-wrapper between-xs between-sm between-md between-lg footer_end">
         <div class="copyrights">
           <p>
             <a class="text_decor" href="https://www.123.com">© 2018 Uber Tehnologis Inc.</a>
@@ -286,7 +286,7 @@
           </p>
         </div>
         <div class=" terms footer_b">
-          <button onclick="topFunction()" id="footer_button" title="Go top">
+          <button type="button" class="footer_button" title="Go top">
             <img class="btn_up" src="./images/btn-up.svg" alt="instagram">
           </button>
         </div>

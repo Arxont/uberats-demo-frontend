@@ -11,20 +11,19 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css">
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/normalize.css">
-  <script src="./JavaScript/bundle.js"></script>
 </head>
 
 <body class="body">
-  <header class="header block_leveler">
+  <header class="header">
     <div class="container">
-      <div class="block_wrapper between-xs between-sm between-md between-lg ">
+      <div class="block-wrapper between-xs between-sm between-md between-lg ">
         <div class="logo header_item_position">
           <img class="header_logo" src="./images/logo.svg" alt="UBER EATS">
         </div>
         <div class="hidden-xs hidden-sm">
-          <nav class="block_wrapper header_item_position">
+          <nav class="block-wrapper header_item_position">
             <button type="button" class="button asap">ASAP</button>
             <p class="header_to">to:</p>
             <div class="imput_wrapper">
@@ -43,7 +42,7 @@
       </div>
     </div>
   </header>
-  <section class="restaurant_presentation block_leveler">
+  <section class="restaurant_presentation">
     <div class="container">
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5 col-xl-5">
         <div class="reastaurant_info qwas">
@@ -65,11 +64,11 @@
       <section class="mobile_menu_filter">
         <div class="filter_wrapper">
           <select class="filter_select">
-            <option value="Snacks">Snacks</option>
-            <option value="Salads">Salads</option>
-            <option value="Hot dishes">Hot dishes</option>
-            <option value="Side dishes">Side dishes</option>
-            <option value="Desserts">Desserts</option>
+            <option value="Snacks">Закуски</option>
+            <option value="Salads">Салаты</option>
+            <option value="Hot dishes">Горячие блюда</option>
+            <option value="Side dishes">Гарниры</option>
+            <option value="Desserts">Десерты</option>
           </select>
         </div>
       </section>
@@ -79,7 +78,7 @@
     <section class="filter">
       <div class="container">
         <div class="col-md-12 col-lg-12">
-          <div class="filter_type block_wrapper between-md">
+          <div class="filter_type block-wrapper between-md">
             <a class="snacks active" href="./restaurants.html">
               <p>Закуски</p>
             </a>
@@ -111,7 +110,7 @@
       <div class="col-xs-12 hidden-xs hidden-sm">
         <h1>Закуски</h1>
       </div>
-      <div class="block_wrapper">
+      <div class="block-wrapper">
         <div class="col-lg-6 col-xl-6">
           <div class="box">
             <div class="box_txt">
@@ -175,12 +174,12 @@
       </div>
   </main>
   </div>
-  <footer class="footer block_leveler">
+  <footer class="footer">
     <div class="container">
       <div class="logo  footer_bottom_border">
         <img class="footer_logo" src="./images/white-logo.svg" alt="UBER EATS">
       </div>
-      <section class="uber_info block_column block_wrapper between-xs between-sm between-md between-lg  footer_bottom_border">
+      <section class="uber_info block_column block-wrapper between-xs between-sm between-md between-lg  footer_bottom_border">
         <div class="footer_container">
           <div class="lang_select">
             <select name="language">
@@ -253,7 +252,7 @@
           <img class="android" src="./images/googleplay.png" alt="androind download">
         </a>
       </section>
-      <section class="block_column block_wrapper between-xs between-sm between-md between-lg footer_end ">
+      <section class="block_column block-wrapper between-xs between-sm between-md between-lg footer_end ">
         <div class="copyrights">
           <p>
             <a class="text_decor" href="https://www.123.com">© 2018 Uber Tehnologis Inc.</a>
@@ -270,7 +269,7 @@
           </p>
         </div>
         <div class=" terms footer_b">
-          <button onclick="topFunction()" id="footer_button" title="Go top">
+          <button type="button" class="footer_button" title="Go top">
             <img class="btn_up" src="./images/btn-up.svg" alt="instagram">
           </button>
         </div>

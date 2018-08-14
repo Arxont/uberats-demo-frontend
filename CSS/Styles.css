@@ -1,17 +1,15 @@
-
-
 .body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
 }
 
-.block_wrapper {
+.block-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .text_decor {
@@ -21,8 +19,8 @@
 
 .icon_pisition {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   margin-right: 2px;
 }
 
@@ -40,8 +38,8 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .body {
     background-color: #f2f2f2;
@@ -60,7 +58,7 @@
 .header_border {
   margin-bottom: 1%;
   -webkit-box-shadow: 0 3px 8px -3px grey;
-          box-shadow: 0 3px 8px -3px grey;
+  box-shadow: 0 3px 8px -3px grey;
 }
 .header_item_position {
   margin-top: 16px;
@@ -109,7 +107,7 @@
 
 .button:hover {
   -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
-          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
 }
 
 .asap {
@@ -149,8 +147,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   width: 100%;
   height: 100%;
 }
@@ -182,11 +180,13 @@
 }
 
 .search_imput {
+  background-color: transparent;
   border-style: none;
   font-size: 13px;
   line-height: 24px;
 }
 .search_for {
+  background-color: transparent;
   width: 100%;
   height: 48px;
   border-style: none;
@@ -249,8 +249,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   max-width: 33%;
 }
 
@@ -267,8 +267,7 @@
   margin-top: 20px;
 }
 
-#footer_button {
-  display: none;
+.footer_button {
   background-color: #59bd5a;
   position: relative;
   left: 75%;
@@ -315,7 +314,7 @@ restaurant css
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   height: 204px;
   margin-top: 200px;
   margin-bottom: 80px;
@@ -334,8 +333,8 @@ restaurant css
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: auto;
 }
 
@@ -382,7 +381,7 @@ restaurant css
 .filter_select {
   background-color: transparent;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 12px;
@@ -402,7 +401,6 @@ restaurant css
   border-width: 1px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin
 }
 
 .filter_type a {
@@ -415,8 +413,8 @@ restaurant css
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 1%;
   border-style: solid;
   border-color: #ececec;
@@ -428,10 +426,10 @@ restaurant css
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 70%;
 }
 
@@ -440,7 +438,7 @@ restaurant css
   max-width: 60%;
   overflow: hidden;
   -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 .box_img {
@@ -465,8 +463,8 @@ restaurant css
     width: 100%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 
   .timer {
