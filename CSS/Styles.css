@@ -12,16 +12,9 @@
   flex-wrap: wrap;
 }
 
-.text_decor {
+.text-decor {
   text-decoration: none;
   color: white;
-}
-
-.icon_pisition {
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-  margin-right: 2px;
 }
 
 .bottom_border {
@@ -60,7 +53,7 @@
   -webkit-box-shadow: 0 3px 8px -3px grey;
   box-shadow: 0 3px 8px -3px grey;
 }
-.header_item_position {
+.header_item-position {
   margin-top: 16px;
   margin-bottom: 16px;
   height: 40px;
@@ -78,19 +71,19 @@
   display: flex;
 }
 
-.container_rest_street {
+.restaurant-container_rest_street {
   line-height: 24px;
   font-size: 16px;
   color: #1d1d1d;
 }
 
-.container_food_price {
+.restaurant-container_food-price {
   line-height: 21px;
   font-size: 14px;
   color: #626262;
 }
 
-.container_travel_time {
+.restaurant-container_travel-time {
   line-height: 21px;
   font-size: 13px;
   color: #1d1d1d;
@@ -110,7 +103,7 @@
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
 }
 
-.asap {
+.button-asap {
   background-color: inherit;
 }
 
@@ -119,13 +112,13 @@
   margin-left: 10px;
 }
 
-.auth_signin {
+.button-signin {
   background-color: white;
   color: black;
   margin-right: 16px;
 }
 
-.auth_reg {
+.button-reg {
   background-color: black;
   border-style: none;
   color: White;
@@ -134,6 +127,10 @@
 .bag_icon {
   font-size: 30px;
   margin-left: 27px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-right: 2px;
 }
 
 .mobile_conteiner {
@@ -159,7 +156,7 @@
   width: 100%;
 }
 
-.imput_wrapper {
+.imput-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,7 +190,7 @@
   font-size: 16px;
 }
 
-.container_img {
+.restaurant-container_img {
   width: 100%;
 }
 
