@@ -19,22 +19,22 @@
 <body class="body">
   <header class="header header_border">
     <div class="container">
-      <div class="block-wrapper between-xs between-sm between-md between-lg">
-        <div class="logo header-menu">
-          <img class="header_logo" src="./images/logo.svg" alt="UBER EATS">
+      <div class="row between-xs between-sm between-md between-lg">
+        <div class="header-logo">
+          <img src="./images/logo.svg" alt="UBER EATS">
         </div>
         <div class="hidden-xs hidden-sm">
-          <nav class="block-wrapper header-menu">
+          <nav class="header-search">
             <button type="button" class="button button-asap">ASAP</button>
             <p class="header-to">to:</p>
-            <div class="imput-wrapper">
+            <div class="input-wrapper">
               <img class="search_img" src="./images/location.svg" alt="search">
-              <input type="search" class="search_imput desc_imp" name="s_serch" placeholder="Type here">
+              <input type="search" class="search_input desc_imp" name="s_search" placeholder="Type here">
             </div>
           </nav>
         </div>
-        <div class="auth header-menu">
-          <button type="button" class="button button-signin">Sign in</button>
+        <div class="header-auth">
+          <button type="button" class="button button_sign-in">Sign in</button>
           <button type="button" class="button button-reg">Register</button>
           <div class="bag_icon  hidden-xs hidden-sm">
             <img class="basket_img" src="./images/basket.svg" alt="basket">
@@ -46,40 +46,38 @@
   <div class="container">
     <nav class="restaurant_search">
       <div class="col-xs-12">
-        <div class="block-wrapper">
+        <div class="row">
           <div class="restaurant_search_wrapper bottom_border">
-            <div class="r_search">
-              <img class="search_img" src="./images/search.svg" alt="search">
-              <input type="search" class="search-for" name "serch" placeholder="Search for restaurant or cuisine">
-            </div>
+            <img class="search_img" src="./images/search.svg" alt="search">
+            <input type="search" class="search-for" name "search" placeholder="Search for restaurant or cuisine">
           </div>
         </div>
       </div>
     </nav>
     <div class="col-xs-12 hidden-md hidden-lg hidden-xl">
-      <section class="block-wrapper around-xs around-sm">
-        <div class="mobile_conteiner col-xs-3 col-sm-3">
+      <section class="mobile-search row around-xs around-sm">
+        <div class="mobile-search_container col-xs-3 col-sm-3">
           <p class="mobile_directions">When</p>
         </div>
-        <div class="mobile_conteiner col-xs-9 col-sm-9">
+        <div class="mobile-search_container col-xs-9 col-sm-9">
           <p class="mobile_directions">To</p>
         </div>
-        <div class="mobile_conteiner col-xs-3 col-sm-3">
+        <div class="mobile-search_container col-xs-3 col-sm-3">
           <button type="button" class="button button-asap">ASAP</button>
         </div>
-        <div class="mobile_conteiner col-xs-9 col-sm-9">
-          <div class="mobile-menu imput-wrapper">
+        <div class="mobile-search_container col-xs-9 col-sm-9">
+          <div class="mobile-menu input-wrapper">
             <img class="search_img" src="./images/location.svg" alt="search">
-            <input type="search" class="search_imput mobile_imp-width" name="s_serch" placeholder="Type here">
+            <input type="search" class="search_input mobile_imp-width" name="s_search" placeholder="Type here">
           </div>
         </div>
       </section>
     </div>
     <main>
       <div class="col-xs-12">
-        <h3 class="sity_rest">Mocsow Reastaurants</h3>
+        <h3 class="city_rest">Moscow Restaurants</h3>
       </div>
-      <div class="block-wrapper">
+      <div class="row">
         <div class="col-md-6 col-lg-4  col-xl-4">
           <div class="restaurant-container">
             <a class="text-decor" href="./restaurants.html">
@@ -193,11 +191,11 @@
   </div>
   <footer class="footer">
     <div class="container">
-      <div class="logo footer_bottom-border">
+      <div class="logo footer_border">
         <img class="footer_logo" src="./images/white-logo.svg" alt="UBER EATS">
       </div>
-      <section class="uber_info block_column block-wrapper between-xs between-sm between-md between-lg footer_bottom-border">
-        <div class="footer_container">
+      <section class="uber-info block_column row between-xs between-sm between-md between-lg footer_border">
+        <div class="uber-info_container">
           <div class="lang_select">
             <select name="language">
               <option value="English">English</option>
@@ -209,7 +207,7 @@
             <p class="hashtag_uber">UberEats</p>
           </div>
 
-          <div class="media_url">
+          <div class="uber-info_media-url">
             <a href="https://www.facebook.com" class="facebook_url text-decor">
               <img class="facebook_img" src="./images/social/facebook.svg" alt="facebook">
             </a>
@@ -221,10 +219,10 @@
             </a>
           </div>
         </div>
-        <div class="footer_container">
+        <div class="uber-info_container">
           <div class="about_uber">
             <p>
-              <a class="text-decor" href="https://www.123.com">About Ubereats</a>
+              <a class="text-decor" href="https://www.123.com">About UberEats</a>
             </p>
           </div>
           <div class="delivery_partner">
@@ -238,7 +236,7 @@
             </p>
           </div>
         </div>
-        <div class="footer_container">
+        <div class="uber-info_container">
           <div class="clients">
             <p>
               <a class="text-decor" href="https://www.123.com">See all clients</a>
@@ -261,33 +259,33 @@
           </div>
         </div>
       </section>
-      <section class="mobile_url center-xs footer_bottom-border">
-        <a class="ios_download">
+      <section class="mobile-url center-xs footer_border">
+        <a class="mobile-url_ios">
           <img class="ios" src="./images/download-on-the-app-store.svg" alt="ios download">
         </a>
-        <a class="android_download">
-          <img class="android" src="./images/googleplay.png" alt="androind download">
+        <a class="mobile-url_android">
+          <img class="android" src="./images/googleplay.png" alt="android download">
         </a>
       </section>
-      <section class="block_column block-wrapper between-xs between-sm between-md between-lg footer_end">
-        <div class="copyrights">
+      <section class="uber-rights block_column row between-xs between-sm between-md between-lg">
+        <div class="uber-rights_copyrights">
           <p>
-            <a class="text-decor" href="https://www.123.com">© 2018 Uber Tehnologis Inc.</a>
+            <a class="text-decor" href="https://www.123.com">© 2018 Uber Technologies Inc.</a>
           </p>
         </div>
-        <div class="privacy">
+        <div class="uber-rights_privacy">
           <p>
             <a class=" text-decor" href="https://www.123.com">Privacy</a>
           </p>
         </div>
-        <div class="terms">
+        <div class="uber-rights_terms">
           <p>
             <a class="text-decor" href="https://www.123.com">Terms</a>
           </p>
         </div>
-        <div class=" terms footer_b">
+        <div class="uber-rights_button_up">
           <button type="button" class="footer_button" title="Go top">
-            <img class="btn_up" src="./images/btn-up.svg" alt="instagram">
+            <img class="button_up" src="./images/btn-up.svg" alt="↑">
           </button>
         </div>
       </section>
