@@ -1,0 +1,445 @@
+.body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.text-decor {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom_border {
+  border-bottom-style: solid;
+  border-width: thin;
+  border-radius: 2px;
+  border-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+  .block_column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .body {
+    background-color: #f2f2f2;
+  }
+  .header {
+    background-color: white;
+  }
+}
+
+.header_border {
+  margin-bottom: 1%;
+  -webkit-box-shadow: 0 3px 8px -3px grey;
+  box-shadow: 0 3px 8px -3px grey;
+}
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 40px;
+}
+
+.header-search {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 40px;
+}
+
+.header-auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 40px;
+}
+
+.restaurant-container_rest_street {
+  line-height: 24px;
+  font-size: 16px;
+  color: #1d1d1d;
+}
+
+.restaurant-container_food-price {
+  line-height: 21px;
+  font-size: 14px;
+  color: #626262;
+}
+
+.restaurant-container_travel-time {
+  line-height: 21px;
+  font-size: 13px;
+  color: #1d1d1d;
+}
+
+.button {
+  font-size: 13px;
+  line-height: 24px;
+  border-radius: 5px;
+  border-color: #e7e7e7;
+  height: 40px;
+  width: 72px;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+}
+
+.button-asap {
+  background-color: inherit;
+}
+
+.header-to {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button_sign-in {
+  background-color: white;
+  color: black;
+  margin-right: 16px;
+}
+
+.button-reg {
+  background-color: black;
+  border-style: none;
+  color: White;
+}
+
+.bag_icon {
+  font-size: 30px;
+  margin-left: 27px;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-right: 2px;
+}
+
+.mobile-search_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.restaurant_search_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+.search_img {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: #e7e7e7;
+}
+
+.desc_imp {
+  width: 227px;
+}
+.mobile-menu {
+  width: 100%;
+  justify-content: space-between;
+}
+.mobile_imp-width {
+  width: 95%;
+}
+.search_input {
+  background-color: transparent;
+  border-style: none;
+  font-size: 13px;
+  line-height: 24px;
+}
+.search-for {
+  background-color: transparent;
+  width: 100%;
+  height: 48px;
+  border-style: none;
+  font-size: 16px;
+}
+
+.restaurant-container_img {
+  width: 100%;
+}
+
+.footer {
+  background-color: #262626;
+}
+
+.footer_logo {
+  margin-top: 56px;
+  margin-bottom: 40px;
+}
+
+.lang_select select {
+  border: none;
+  background-color: #262626;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+}
+
+.footer_border {
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #ffffff;
+}
+
+.hashtag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hashtag_h {
+  color: green;
+  height: 19px;
+}
+.hashtag_uber {
+  width: 65px;
+  height: 19px;
+  left: 92px;
+  top: 1690px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.uber-info {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.uber-info_media-url {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 33%;
+}
+.mobile-url {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.mobile-url_ios {
+  margin-right: 5%;
+}
+
+.uber-rights {
+  margin-top: 20px;
+}
+
+.footer_button {
+  background-color: #59bd5a;
+  position: relative;
+  left: 75%;
+  border-radius: 3px;
+  border-style: none;
+}
+
+/*
+
+
+restaurant css
+
+
+
+*/
+
+.rest_margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.unneeded {
+  visibility: hidden;
+}
+
+.active:hover {
+  color: green;
+}
+
+.restaurant_presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../images/restaurants/restouraunt-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #626262;
+  height: 364px;
+}
+
+.restaurant_info {
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 204px;
+  margin-top: 200px;
+  margin-bottom: 80px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.restaurant_name {
+  margin-top: 38px;
+  width: 100%;
+}
+
+.price_time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+}
+
+.price_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  height: 32px;
+}
+.price {
+  margin: auto;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 13px;
+  line-height: 15px;
+}
+.timer {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #1d1d1d;
+  border-radius: 16px;
+  width: 98px;
+  height: 32px;
+  color: white;
+}
+.timer_data {
+  margin: auto;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.filter_select {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.filter {
+  border-bottom-style: solid;
+  border-color: #626262;
+  border-width: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.filter_type a {
+  text-decoration: none;
+  color: black;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1%;
+  border-style: solid;
+  border-color: #ececec;
+}
+
+.box_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.box p {
+  white-space: nowrap;
+  max-width: 60%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.box_img {
+  width: 30%;
+}
+.box_other-info {
+  margin-top: 0.5%;
+  color: grey;
+}
+
+.box_price {
+  margin-top: 10%;
+  margin-bottom: 1%;
+}
+
+@media (min-width: 769px) {
+  .restaurant_info {
+    margin-top: 80px;
+  }
+
+  .price_time {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .timer {
+    margin: auto;
+  }
+}

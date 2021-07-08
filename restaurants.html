@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Restaurant</title>
+  <meta name="description" content="Restaurant menu">
+  <meta name="author" content="Feid">
+  <meta name="keywords" content="HTML">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css">
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container">
+      <div class="row between-xs between-sm between-md between-lg ">
+        <div class="header-logo">
+          <img src="./images/logo.svg" alt="UBER EATS">
+        </div>
+        <div class="hidden-xs hidden-sm">
+          <nav class="header-search">
+            <button type="button" class="button button-asap">ASAP</button>
+            <p class="header-to">to:</p>
+            <div class="input-wrapper">
+              <img class="search_img" src="./images/location.svg" alt="search">
+              <input type="search" class="search_input desc_imp" name="s_search" placeholder="Type here">
+            </div>
+          </nav>
+        </div>
+        <div class="header-auth">
+          <button type="button" class="button button_sign-in">Sign in</button>
+          <button type="button" class="button button-reg">Register</button>
+          <div class="bag_icon hidden-xs hidden-sm">
+            <img class="basket_img" src="./images/basket.svg" alt="basket">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="restaurant_presentation">
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5 col-xl-5">
+        <div class="restaurant_info">
+          <h1 class="restaurant_name center-xs">Трактир "Пушкин"</h1>
+          <div class="price_time around-md">
+            <div class="price_wrapper">
+              <p class="price">₽₽₽ · Европейская</p>
+            </div>
+            <div class="timer">
+              <p class="timer_data">40-50 Min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container hidden-md hidden-lg hidden-xl">
+    <div class="filter_select">
+      <h1>Закуски</h1>
+      <div class="test1"></div>
+    </div>
+  </div>
+  <div class="hidden-xs hidden-sm">
+    <section class="filter">
+      <div class="container">
+        <div class="col-md-12 col-lg-12">
+          <div class="filter_type row
+           between-md">
+            <a class="snacks active" href="./restaurants.html">
+              <p>Закуски</p>
+            </a>
+            <a class="salads active" href="https://www.123.com">
+              <p>Салаты</p>
+            </a>
+            <a class="soups active" href="https://www.123.com">
+              <p>Супы</p>
+            </a>
+            <a class="hot_dish active" href="https://www.123.com">
+              <p>Горячие блюда</p>
+            </a>
+            <a class="side_dish active" href="https://www.123.com">
+              <p>Гарниры</p>
+            </a>
+            <a class="desserts active" href="https://www.123.com">
+              <p>Десерты</p>
+            </a>
+            <a class="unneeded" href="https://www.123.com">
+              <p>placeholder</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <main>
+    <div class="container">
+      <div class="col-xs-12 hidden-xs hidden-sm">
+        <h1>Закуски</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-xl-6">
+          <div class="box">
+            <div class="box_txt">
+              <p>Cельдь на бородинском хлебе</p>
+              <p class="box_other-info">С яйцом и огурцом</p>
+              <p class="box_price">240 ₽</p>
+            </div>
+            <img class="box_img" src="./images/restaurants/1.png" alt="food">
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6">
+          <div class="box">
+            <div class="box_txt">
+              <p>Cоленья асорти</p>
+              <p class="box_other-info unneeded">-</p>
+              <p class="box_price">320 ₽</p>
+            </div>
+            <img class="box_img" src="./images/restaurants/2.png" alt="food">
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6">
+          <div class="box">
+            <div class="box_txt">
+              <p>Грибы маринованные</p>
+              <p class="box_other-info unneeded">-</p>
+              <p class="box_price">300 ₽</p>
+            </div>
+            <img class="box_img" src="./images/restaurants/3.png" alt="food">
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6">
+          <div class="box">
+            <div class="box_txt">
+              <p>Cало домашнее с горчицей</p>
+              <p class="box_other-info unneeded"> placeholder</p>
+              <p class="box_price">320 ₽</p>
+            </div>
+            <img class="box_img" src="./images/restaurants/4.png" alt="food">
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6">
+          <div class="box">
+            <div class="box_txt">
+              <p>Малосольная семга</p>
+              <p class="box_other-info unneeded"> placeholder</p>
+              <p class="box_price">390 ₽</p>
+            </div>
+            <img class="box_img" src="./images/restaurants/5.png" alt="food">
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6">
+          <div class="box">
+            <div class="box_txt">
+              <p>Язык говяжий с хреном</p>
+              <p class="box_other-info unneeded"> placeholder</p>
+              <p class="box_price">350 ₽</p>
+            </div>
+            <img class="box_img" src="./images/restaurants/6.png" alt="food">
+          </div>
+        </div>
+      </div>
+  </main>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="logo  footer_border">
+        <img class="footer_logo" src="./images/white-logo.svg" alt="UBER EATS">
+      </div>
+      <section class="uber-info block_column row
+       between-xs between-sm between-md between-lg  footer_border">
+        <div class="uber-info_container">
+          <div class="lang_select">
+            <select name="language">
+              <option value="English">English</option>
+              <option value="Russian">Russian</option>
+            </select>
+          </div>
+          <div class="hashtag">
+            <p class="hashtag_h">#</p>
+            <p class="hashtag_uber">UberEats</p>
+          </div>
+
+          <div class="uber-info_media-url">
+            <a href="https://www.facebook.com" class="facebook_url text-decor">
+              <img class="facebook_img" src="./images/social/facebook.svg" alt="facebook">
+            </a>
+            <a href="https://www.twitter.com" class="twitter_url text-decor">
+              <img class="twitter_img" src="./images/social/twitter.svg" alt="twitter">
+            </a>
+            <a href="https://instagram.com" class="instagram_url text-decor">
+              <img class="instagram_img" src="./images/social/instagram.svg" alt="instagram">
+            </a>
+          </div>
+        </div>
+        <div class="uber-info_container">
+          <div class="about_uber">
+            <p>
+              <a class="text-decor" href="https://www.123.com">About UberEats</a>
+            </p>
+          </div>
+          <div class="delivery_partner">
+            <p>
+              <a class="text-decor" href="https://www.123.com">Become a delivery Partner</a>
+            </p>
+          </div>
+          <div class="restaurant_partner">
+            <p>
+              <a class="text-decor" href="https://www.123.com">Become a restaurant Partner</a>
+            </p>
+          </div>
+        </div>
+        <div class="uber-info_container">
+          <div class="clients">
+            <p>
+              <a class="text-decor" href="https://www.123.com">See all clients</a>
+            </p>
+          </div>
+          <div class="pricing">
+            <p>
+              <a class="text-decor" href="https://www.123.com">Pricing</a>
+            </p>
+          </div>
+          <div class="support">
+            <p>
+              <a class="text-decor" href="https://www.123.com">Help</a>
+            </p>
+          </div>
+          <div class="faq">
+            <p>
+              <a class="text-decor" href="https://www.123.com">FAQ</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="mobile-url center-xs  footer_border">
+        <a class="mobile-url_ios">
+          <img class="ios" src="./images/download-on-the-app-store.svg" alt="ios download">
+        </a>
+        <a class="mobile-url_android">
+          <img class="android" src="./images/googleplay.png" alt="android download">
+        </a>
+      </section>
+      <section class="uber-rights block_column row between-xs between-sm between-md between-lg">
+        <div class="uber-rights_copyrights">
+          <p>
+            <a class="text-decor" href="https://www.123.com">© 2018 Uber Technologies Inc.</a>
+          </p>
+        </div>
+        <div class="uber-rights_privacy">
+          <p>
+            <a class=" text-decor" href="https://www.123.com">Privacy</a>
+          </p>
+        </div>
+        <div class="uber-rights_terms">
+          <p>
+            <a class="text-decor" href="https://www.123.com">Terms</a>
+          </p>
+        </div>
+        <div class="uber-rights_button_up">
+          <button type="button" class="footer_button" title="Go top">
+            <img class="button_up" src="./images/btn-up.svg" alt="↑">
+          </button>
+        </div>
+      </section>
+    </div>
+  </footer>
+</body>
+
+</html>
